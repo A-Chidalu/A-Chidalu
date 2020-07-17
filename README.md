@@ -1,16 +1,37 @@
-### Hi there 👋
+public class Chidalu extends Agbakwa {
 
-<!--
-**A-Chidalu/A-Chidalu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    public String getSchool() {
+        return "York University";
+    }
 
-Here are some ideas to get you started:
+    public String getDegree() {
+        return "Software Engineering";
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public String[] getFavoriteProgrammingLanguages() {
+        return new String[]{"Java", "Python", "JavaScript (Node.js)"};
+    }
+
+    public String[] currentlyLearning() {
+        return new String[]{"Angular", "SpringBoot"};
+    }
+
+    public String getCareerGoal() {
+        return "Full-Stack Developer";
+    }
+
+    public String[] getWantToLearn() {
+        return new String[]{"Microservice Architecture", "AWS",
+                "Serverless / Full Stack Cloud"};
+    }
+
+    public Map<String, String> getSocialMediaHandles() {
+        Map<String, String> socialHandles = Map.ofEntries(
+                entry("Instagram", "A.Chidalu"),
+                entry("Twitter", "@Chidalu4"),
+                entry("LinkdenIn", "https://www.linkedin.com/in/a-chidalu/")
+        );
+
+        return socialHandles;
+    }
+}
